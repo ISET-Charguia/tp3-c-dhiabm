@@ -19,7 +19,7 @@ int main(void) {
 		scanf("%d %d",&a , &b);
 
 	}
-	while (a<b);
+	while ((a<b)||(a<=0)) ;
 do
 {
 	r=a%b ;
